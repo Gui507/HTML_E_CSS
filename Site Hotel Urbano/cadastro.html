@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <h1 align="left">Cadastro</h1>
+        <table cellspacing="10" align="right">
+            <tr>
+                <td><a href="index.html">Home</a></td>
+                <td><a href="acamodações.html">Acomodações</a></td>
+                <td><a href="parceiros.html">Parceiros</a></td>
+                <td><a href="serviços.html">Serviços</a></td>
+            </tr>
+        </table>
+    </header>
+    <form>
+        <h2>Dados pessoais</h2>
+        <fieldset>
+            <div>
+                <label><b>Nome</b></label>
+                <input type="text">
+                <label><b>Sobrenome</b></label>
+                <input type="text">
+            </div>
+            <div>
+                <label><b>Nascimento</b></label>
+                <input type="date">
+                <label><b>CPF</b></label>
+                <input type="text">
+            </div>
+            <div>
+                <label><b>Telefone</b></label>
+                <input type="tel">
+                <label><b>Email</b></label>
+                <input type="email">
+            </div>
+        </fieldset>
+        <h2>Crie seu login</h2>
+        <fieldset>
+            <div>
+                <label><b>Email</b></label>
+                <input type="email">
+                <label><b>Senha</b></label>
+                <input type="password">
+            </div>
+        </fieldset>
+        <h2>Faça a sua reserva</h2>
+        <fieldset>
+            <div>
+                <label><b>Tipo de quarto</b></label>
+                <br>
+                <input type="radio">Standard
+                <br>
+                <input type="radio">Master
+                <br>
+                <input type="radio">Deluxe
+            </div>
+            <div><b>Período de estadia</b></div>
+            <label>Data de entrada</label>
+            <input type="date">
+            <label>Data de saída</label>
+            <input type="date">
+        </fieldset>
+        <div align="right">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
